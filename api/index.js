@@ -13,3 +13,5 @@ app.get("/api/search-geocode/:address", async (req, res) => {
 });
 
 app.listen(4000);
+
+module.exports = app;
